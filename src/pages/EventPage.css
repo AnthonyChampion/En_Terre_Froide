@@ -1,0 +1,27 @@
+.equipement_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.eventPage_container img {
+    width: 25rem;
+    height: 20rem;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.equipement_fournis {
+    gap: 1rem;
+}
+
+.img_container {
+    display: flex;
+    max-width: 100%;
+}

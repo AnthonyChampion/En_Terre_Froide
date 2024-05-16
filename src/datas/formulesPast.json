@@ -18,20 +18,15 @@
         {
             "id": 4,
             "name": "Islande",
-            "img": "https://nosracinesur4continents.com/wp-content/uploads/2017/02/voyage-authentique-en-islande-tripconnexion-paysage-enneige.jpg"
+            "img": "https://photos.altai-travel.com/1920x1040/reveillon-en-islande-evenfh-235.jpg"
         },
         {
             "id": 5,
-            "name": "Danemark",
-            "img": "https://img-4.linternaute.com/5JoYCedxpvjdzeaJ_0Gjrrdebao=/fit-in/x630/smart/filters:fill(1D1D1B)/160d89fa95dc426ead4e8b75f7f79fdf/ccmcms-linternaute/10997163.jpg"
+            "name": "Groenland",
+            "img": "https://api2.athanpro.com/images/country-greenland/country-greenland-optimized.webp"
         },
         {
             "id": 6,
-            "name": "Groenland",
-            "img": "https://www.shutterstock.com/image-photo/picturesque-village-on-coast-greenland-260nw-2333380753.jpg"
-        },
-        {
-            "id": 7,
             "name": "Laponie",
             "img": "https://temps-jeunes.com/assets/img/uploads/sejour/485-colonie-de-vacances-hiver-2023-voyage-en-laponie-(3).jpeg"
         }
