@@ -1,0 +1,15 @@
+.HomePageComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.last_trips {
+    width: 100vw;
+    margin-top: 4rem;
+}
+
+.last_trips p {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #023347;
+    color: white;
+    align-items: center;
+    padding: 2rem;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        li {
+            margin: 0 auto;
+        }
+    }
+}

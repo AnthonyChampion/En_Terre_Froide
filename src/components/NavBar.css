@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background-color: #023347;
+    color: white;
+    align-items: center;
+
+    img {
+        max-height: 4rem;
+        width: auto;
+        border-radius: 10%;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 520;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        background-color: #F0F8FF;
+        color: #023347;
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "formules": [
+        {
+            "id": 1,
+            "name": "Antarctique",
+            "description": "Partez vivre une folle aventure en Antartique",
+            "date": "03 novembre au 13 novembre 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/antarctique/Antarctic1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "équipements de plongée",
+                "équipements d'escalade",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Plongée polaire",
+                    "description": "Découvrez les dessous des glaciers",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Mont Vinson",
+                    "description": "Partez à l'ascension du mont Vinson",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Suède",
+            "description": "Partez découvrir les îles suèdoises",
+            "date": "du 11 décembre au 21 décembre 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/suede/Suede1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "matériels de ski complets",
+                "raquettes de randonnée",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage.",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Parkour de randonée",
+                    "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique.",
+                    "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Ski de fond",
+                    "description": "Quoi de mieux qu'une paire de ski pour parcourir les paysages.",
+                    "img": "https://www.station-coldelaloge.fr/wp-content/uploads/sites/2/2019/07/Col-Loge_skieurs-depart.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Norvège",
+            "description": "Partez au pays des Vikings pour admirer les sompteux paysages ",
+            "date": "du 03 janvier au 13 janvier 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/norvege/Norvege1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "matériels de ski complets",
+                "raquettes de randonnée",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Parkour de randonée",
+                    "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique",
+                    "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Ski de fond",
+                    "description": "Quoi de mieux qu'une paire de ski pour parcourir les paysages.",
+                    "img": "https://www.station-coldelaloge.fr/wp-content/uploads/sites/2/2019/07/Col-Loge_skieurs-depart.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Islande",
+            "description": "Partez découvrir la plus grande archipêl finlandaises et ses îles  ",
+            "date": "15 janvier au 25 janvier 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/islande/Islande1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "matériels de ski complets",
+                "raquettes de randonnée",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Parkour de randonée",
+                    "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique",
+                    "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Ski de fond",
+                    "description": "Quoi de mieux qu'une paire de ski pour parcourir les paysages.",
+                    "img": "https://www.station-coldelaloge.fr/wp-content/uploads/sites/2/2019/07/Col-Loge_skieurs-depart.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Arctique",
+            "description": "Partez vivre une folle aventure au cercle Artcique",
+            "date": "29 novembre au 09 novembre 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/arctique/Arctique1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "équipements de plongée",
+                "équipements d'escalade",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Plongée polaire",
+                    "description": "Découvrez les dessous des glaciers",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Mont Vinson",
+                    "description": "Partez à l'ascension du mont Vinson",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Laponie",
+            "description": "Vivez une aventure exceptionnelle au coeur de la Laponie ",
+            "date": "23 novembre au 03 décembre 2024",
+            "prix": "3000.- ",
+            "img": "./src/assets/laponie/Laponie1.jpg",
+            "equipFournis": [
+                "Seconde combinaison",
+                "Mouffles",
+                "Couvertures",
+                "équipements de plongée",
+                "équipements d'escalade",
+                "batons de marche"
+            ],
+            "equipAcheter": [
+                "vêtements chauds",
+                "chaussures",
+                "lunettes adaptées"
+            ],
+            "activitees": [
+                {
+                    "activite_id": 1,
+                    "name": "Chien de traineaux",
+                    "description": "Partez en randonné avec nos chiens découvrir le paysage",
+                    "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+                },
+                {
+                    "activite_id": 2,
+                    "name": "Plongée polaire",
+                    "description": "Découvrez les dessous des glaciers",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 3,
+                    "name": "Mont Vinson",
+                    "description": "Partez à l'ascension du mont Vinson",
+                    "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+                },
+                {
+                    "activite_id": 4,
+                    "name": "Dormir dans un dôme",
+                    "description": "Endormez-vous avec les yeux pleines d'étoiles",
+                    "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+                }
+            ]
+        }
+    ]
+}
