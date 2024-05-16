@@ -1,4 +1,35 @@
 footer {
+    background-color: #023347;
+    color: white
+}
+
+ul.footer-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+ul.footer-ul li {
+    margin: 0.2rem;
+}
+
+@media screen and (min-width:900px) {
+    ul.footer-ul {
+        font-size: 1rem;
+    }
+
+    ul.footer-ul li {
+        margin: 0.3rem;
+    }
+
+}
+
+
+
+/*footer {
     width: 100%;
     bottom: 0;
     background-color: #023347;

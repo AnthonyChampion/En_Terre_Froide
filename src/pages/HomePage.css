@@ -2,15 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
     padding-bottom: 4rem;
+    background-image: url("./src/assets/banner.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: solid 2px white;
 
-    h1+p {
-        font-size: 1.2rem;
-        max-width: 80ch;
-        text-align: center;
-        font-weight: 480;
-    }
+}
+
+.home_title {
+    color: white;
+    text-shadow: 2px 2px 2px #023347;
+}
+
+.concept_description {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 2px #023347;
 }
 
 .last_trips {

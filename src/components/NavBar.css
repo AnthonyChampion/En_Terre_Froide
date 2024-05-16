@@ -24,6 +24,7 @@ nav {
         font-weight: 520;
         padding: 8px;
         border-radius: 10px;
+        font-size: larger;
     }
 
     a:hover {

@@ -9,6 +9,12 @@ h1 {
     text-align: center;
 }
 
+.event_description {
+    padding: 2rem;
+    text-align: center;
+    font-size: 18px;
+}
+
 .eventPage_container img {
     width: 25rem;
     height: 20rem;

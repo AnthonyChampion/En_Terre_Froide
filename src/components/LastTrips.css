@@ -2,14 +2,15 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 7rem;
     padding-bottom: 3rem;
+}
 
-    h1 {
-        text-align: center;
-        padding-bottom: 2rem;
-        font-size: 14pt;
-    }
+.last_title {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 25px;
+    color: #023347;
 }
 
 

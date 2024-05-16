@@ -3,10 +3,6 @@ import { register } from 'swiper/element';
 import { useNavigate } from 'react-router-dom';
 import formules from '../datas/formules.json'
 import "./SliderTrips.css";
-import "./swiper.css"
-import "swiper/element/css/effect-coverflow";
-
-/* import { EffectCoverflow, Pagination } from 'swiper/modules'; */
 
 register();
 
@@ -42,7 +38,7 @@ export default function SliderTrips() {
             <h1>Voyages à venir</h1>
             <div className="swiper_container">
                 <swiper-container
-                    effect="coverflow"
+                    pagination={true}
                     centered-slides="true"
                     slides-per-view={slides}
                     coverflow-effect-rotate="0"
@@ -53,7 +49,7 @@ export default function SliderTrips() {
                     loop="true"
                 >
                     {
-                        trips.length > 0 && trips.map((data) => (
+                        trips.map((data) => (
                             <swiper-slide
                                 key={data.id}>
                                 <div className="trips_card">

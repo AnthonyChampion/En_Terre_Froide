@@ -12,7 +12,7 @@ export default function LastTrip() {
 
     return (
         <section className="last_trips_container">
-            <h1> Les derniers voyages organisés </h1>
+            <h1 className="last_title"> Les derniers voyages organisés </h1>
             <div className="last_trips_details">
                 {
                     lastTrips.length > 0 && lastTrips.map((datas) => (
