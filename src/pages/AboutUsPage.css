@@ -1,0 +1,49 @@
+.aboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsContainer h4 {
+    margin-bottom: 15px;
+}
+
+.aboutUsContainer img {
+    width: 15px;
+    height: 15px;
+}
+
+.profilesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 223, 223);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.profiles {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.historyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.historyContainer h2 {
+    margin-bottom: 15px;
+}
+
+.historyContainer p {
+    margin-bottom: 15px;
+    background-color: rgb(222, 223, 223);
+    padding: 15px;
+    border-radius: 15px;
+}
