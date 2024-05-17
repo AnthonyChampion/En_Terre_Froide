@@ -19,7 +19,11 @@ ul.nav-ul {
     margin-right: 0.5rem;
     gap: 0.5rem;
     align-items: center;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.nav_link {
+    font-size: 200px;
 }
 
 a {
@@ -28,7 +32,6 @@ a {
 }
 
 a:hover {
-    background-color: #F0F8FF;
     color: #023347;
     border-radius: 5px;
 }
@@ -49,40 +52,4 @@ ul.nav-ul {
 a {
     font-size: 16px;
     padding: 5px;
-}
-
-
-/*nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 2rem;
-    background-color: #023347;
-    color: white;
-    align-items: center;
-
-    img {
-        max-height: 4rem;
-        width: auto;
-        border-radius: 10%;
-    }
-
-    ul {
-        list-style-type: none;
-        display: flex;
-        gap: 1rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-        font-weight: 520;
-        padding: 8px;
-        border-radius: 10px;
-        font-size: larger;
-    }
-
-    a:hover {
-        background-color: #F0F8FF;
-        color: #023347;
-    }
 }

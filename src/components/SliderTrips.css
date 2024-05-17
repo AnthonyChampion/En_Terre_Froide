@@ -70,4 +70,8 @@
         color: #023347;
         text-shadow: 2px 2px 2px white;
     }
+
+    .trips_card a {
+        display: contents;
+    }
 }
