@@ -1,0 +1,48 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactContainer h1 {
+    margin-bottom: 10px;
+}
+
+.questionnaireContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(222, 223, 223);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.questionnaireContainer h4 {
+
+    margin-bottom: 15px;
+
+}
+
+.questionnaireContainer input {
+    margin-top: 5px;
+    border: 1px rgb(102, 102, 102) solid;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.questionnaireContainer textarea {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-height: 130px;
+    max-width: 500px;
+    border: 1px rgb(102, 102, 102) solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.questionnaireContainer button {
+    border: 1px rgb(102, 102, 102) solid;
+    border-radius: 5px;
+    padding: 5px;
+}
