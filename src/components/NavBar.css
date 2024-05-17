@@ -22,9 +22,6 @@ ul.nav-ul {
     font-size: 15px;
 }
 
-.nav_link {
-    font-size: 200px;
-}
 
 a {
     text-decoration: none;
@@ -33,13 +30,15 @@ a {
 
 a:hover {
     color: #023347;
+    background-color: white;
     border-radius: 5px;
+    padding: 7px;
 }
 
 @media screen and (max-width:900px) {
 
     img.logo-nav {
-        width: 6rem;
+        width: 4rem;
         border-radius: 10%;
     }
 }

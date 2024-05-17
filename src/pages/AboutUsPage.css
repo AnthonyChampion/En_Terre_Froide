@@ -9,18 +9,20 @@
 }
 
 .aboutUsContainer img {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
 }
 
 .profilesContainer {
     display: flex;
+    width: 20rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(222, 223, 223);
     padding: 15px;
     border-radius: 15px;
+    font-size: 18px;
 }
 
 .profiles {
@@ -32,9 +34,14 @@
 
 .historyContainer {
     display: flex;
+    width: 60%;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
     margin: 25px;
+    font-size: 18px;
+    background-color: rgb(222, 223, 223);
+    border-radius: 15px;
 }
 
 .historyContainer h2 {
@@ -43,7 +50,12 @@
 
 .historyContainer p {
     margin-bottom: 15px;
-    background-color: rgb(222, 223, 223);
     padding: 15px;
-    border-radius: 15px;
+}
+
+@media screen and (max-width:900px) {
+
+    .historyContainer {
+        width: 80%;
+    }
 }

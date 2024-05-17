@@ -4,6 +4,7 @@
     flex-direction: column;
     margin-top: 7rem;
     padding-bottom: 3rem;
+    padding-top: 4rem;
 }
 
 .last_title {
@@ -29,12 +30,12 @@
 }
 
 .last_trips_card {
-    padding: 0.25rem
+    padding: 0.25rem;
+    padding-bottom: 2rem;
 }
 
 .details {
     text-align: center;
-    padding-bottom: 2rem;
 }
 
 @media screen and (max-width:900px) {
@@ -48,10 +49,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
     }
 
     .last_trips_details {
         gap: 5px;
     }
 
+    .last_trips_container {
+        padding-bottom: 0;
+    }
 }

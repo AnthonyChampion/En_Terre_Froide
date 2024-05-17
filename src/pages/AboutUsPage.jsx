@@ -6,7 +6,7 @@ export default function AboutUsPage() {
   return (
     <div className="aboutUsContainer">
       <h1>À propos de nous</h1>
-      <h4>EN TERRE FROIDE© vous est présentez par </h4>
+      <h4>EN TERRE FROIDE© vous est présenté par </h4>
       <div className="profilesContainer">
         <p>Amel BONNEVIE</p>
         <div className="profiles">
@@ -63,12 +63,16 @@ export default function AboutUsPage() {
         <p>
           Notre entreprise, EN TERRE FROIDE©, est née de la passion de cinq
           collègues aventuriers pour les terres glacées et mystérieuses des
-          régions polaires. Fondée en 2024, nous nous sommes spécialisés dans l
+          régions polaires.</p>
+        <p>
+          Fondée en 2024, nous nous sommes spécialisés dans l
           organisation de voyages exclusifs vers des destinations froides, avec
           un accent particulier sur l Antarctique. Notre mission est de
           permettre à nos clients de découvrir la beauté sauvage et immaculée de
           ces contrées éloignées, tout en respectant l environnement fragile de
-          ces écosystèmes. Nous proposons une variété de formules, contenant
+          ces écosystèmes. </p>
+        <p>
+          Nous proposons une variété de formules, contenant
           diverses activitées pour capturer la majesté des paysages glacés.
           Chaque voyage est guidé par des experts chevronnés et équipé des
           meilleures technologies pour assurer sécurité et confort. Avec un
@@ -77,6 +81,6 @@ export default function AboutUsPage() {
           transformative, où aventure et respect de la nature se rencontrent.
         </p>
       </div>
-    </div>
+    </div >
   );
 }

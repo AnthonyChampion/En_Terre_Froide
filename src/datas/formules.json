@@ -18,7 +18,11 @@
         "équipements d'escalade",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
@@ -36,13 +40,13 @@
           "activite_id": 3,
           "name": "Mont Vinson",
           "description": "Partez à l'ascension du mont Vinson",
-          "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+          "img": "http://www.montagnenmusique.com/uploads/2017/11/montagnenmusique_1509882192JT.jpg"
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
-          "description": "Endormez-vous avec les yeux pleines d'étoiles",
-          "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+          "name": "Observation des baleines",
+          "description": "Emerveillez-vous devant ces incroyables créatures",
+          "img": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1688484399/Antarctica-Guides-Activities-Whale_590344e4b/Antarctica-Guides-Activities-Whale_590344e4b.jpg?_i=AA"
         }
       ]
     },
@@ -57,38 +61,40 @@
       "img3": "https://s3-eu-north-1.amazonaws.com/py3.visitsweden.com/original_images/Vandring20-20Fredrik20Lewander-CMSTemplate_Ls4tA90.jpg",
       "img4": "https://travelrebels.com/wp-content/uploads/2024/02/Wildkamperen-Reisjunk-1-scaled.jpg",
       "equipFournis": [
-        "Seconde combinaison",
-        "Mouffles",
         "Couvertures",
-        "matériels de ski complets",
-        "raquettes de randonnée",
+        "matériels de canoë",
+        "jumelles",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements légers et chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
-          "name": "Chien de traineaux",
-          "description": "Partez en randonné avec nos chiens découvrir le paysage.",
-          "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+          "name": "Canoë sur lac",
+          "description": "Pagayez pour traverser les lacs",
+          "img": "https://images.partir.com/q_mNLuv6Rmsg-ay11ED05NNgJ_M=/565x/filters:sharpen(0.3,0.3,true)/activites/suede-activites-canoe.jpg"
         },
         {
           "activite_id": 2,
-          "name": "Parkour de randonée",
-          "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique.",
-          "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
+          "name": "Parcours de randonée",
+          "description": "Partez en randonnée sur un parcours tracé afin de découvrir ce paysage magnifique.",
+          "img": "https://www.contura.eu/images/18.5f0467ae181687c049c1cce/1656947421251/Contura_blog_sentier_du_roi_randonnee_ete_suede_2.jpeg"
         },
         {
           "activite_id": 3,
-          "name": "Ski de fond",
-          "description": "Quoi de mieux qu'une paire de ski pour parcourir les paysages.",
-          "img": "https://www.station-coldelaloge.fr/wp-content/uploads/sites/2/2019/07/Col-Loge_skieurs-depart.jpg"
+          "name": "Observation des rennes",
+          "description": "Tentez d'approcher cet animal mythique",
+          "img": "https://www.nordic.be/wp-content/uploads/2020/03/Eland-in-de-Zweedse-natuur.jpg"
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
+          "name": "Loger dans un tippi",
           "description": "Endormez-vous avec les yeux pleines d'étoiles",
-          "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+          "img": "https://s3-eu-north-1.amazonaws.com/py3.visitsweden.com/images/SapmiNatureCamp-2-CMSTemplate.max-1500x1000.jpg"
         }
       ]
     },
@@ -110,7 +116,11 @@
         "raquettes de randonnée",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
@@ -120,7 +130,7 @@
         },
         {
           "activite_id": 2,
-          "name": "Parkour de randonée",
+          "name": "Parcours de randonée",
           "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique",
           "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
         },
@@ -132,9 +142,9 @@
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
-          "description": "Endormez-vous avec les yeux pleines d'étoiles",
-          "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+          "name": "Loger en cabane perchée",
+          "description": "Endormez-vous au sons de la nature",
+          "img": "https://www.monde-authentique.com/wp-content/gallery/norvege-hebergements-typiques-et-insolites/2-Visit-Norway_woodnest_Odda-tree_house_hardanger_fjord_norway_photo_sindre_ellingsen-web.jpg"
         }
       ]
     },
@@ -156,7 +166,11 @@
         "raquettes de randonnée",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
@@ -166,7 +180,7 @@
         },
         {
           "activite_id": 2,
-          "name": "Parkour de randonée",
+          "name": "Parcours de randonée",
           "description": "Partez en randonné sur un parkour tout tracé pour découvrir ce paysage magnifique",
           "img": "https://www.belambra.fr/les-echappees/wp-inside/uploads/2017/12/randonnee-en-hiver-quelles-sont-les-precautions-a-prendre.jpg"
         },
@@ -178,9 +192,9 @@
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
-          "description": "Endormez-vous avec les yeux pleines d'étoiles",
-          "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+          "name": "Plongée polaire",
+          "description": "Découvrez les dessous des glaciers",
+          "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
         }
       ]
     },
@@ -202,13 +216,17 @@
         "équipements d'escalade",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
-          "name": "Chien de traineaux",
-          "description": "Partez en randonné avec nos chiens découvrir le paysage",
-          "img": "https://media.ooreka.fr/public/image/sport-chien-neige-full-12235343.jpg"
+          "name": "Balade entre les icebergs",
+          "description": "Approchez-vous au plus près des glaciers",
+          "img": "https://lh3.googleusercontent.com/proxy/rvf2Q86OWcx-_-NRTX13GPfF5gFNuH6CKo5-zN0B-ZchnWian8OtRytW4PvOLzwjbNru5LGXPIo-xHuxE-w8v53wNQnZ9vG-yLsHKuaQw9PVQh6OV055XuSTieLHquESYXsZ0hvk69w"
         },
         {
           "activite_id": 2,
@@ -218,22 +236,22 @@
         },
         {
           "activite_id": 3,
-          "name": "Mont Vinson",
-          "description": "Partez à l'ascension du mont Vinson",
-          "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+          "name": "Observation des manchots empereurs",
+          "description": "Attendrissez-vous face à ces oiseaux fabuleux",
+          "img": "https://www.polartours.com/_next/image?url=https%3A%2F%2Fmedia.venturatravel.org%2Funsafe%2F1300x%2Fsmart%2Fheader_media%2F6acc180a-f1b5-4596-ab62-aaac82624664-emperor-penguin-oceanwide-.jpeg&w=3840&q=75"
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
+          "name": "Camping sauvage",
           "description": "Endormez-vous avec les yeux pleines d'étoiles",
-          "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
+          "img": "https://img.freepik.com/photos-premium/camping-arctique-sous-aurores-boreales-ai_894067-2110.jpg"
         }
       ]
     },
     {
       "id": 6,
       "name": "Laponie",
-      "description": "Vivez une aventure exceptionnelle au coeur de la Laponie ",
+      "description": "Vivez une aventure magique au coeur de la Laponie ",
       "date": "23 novembre au 03 décembre 2024",
       "prix": "1500",
       "img": "https://laplandwelcome.fi/userassets/uploads/2017/09/Kakslauttanen-glass-igloo-Northern-Lights-2.jpg",
@@ -248,7 +266,11 @@
         "équipements d'escalade",
         "batons de marche"
       ],
-      "equipAcheter": ["vêtements chauds", "chaussures", "lunettes adaptées"],
+      "equipAcheter": [
+        "Vêtements chauds",
+        "chaussures",
+        "lunettes adaptées"
+      ],
       "activitees": [
         {
           "activite_id": 1,
@@ -258,19 +280,19 @@
         },
         {
           "activite_id": 2,
-          "name": "Plongée polaire",
-          "description": "Découvrez les dessous des glaciers",
-          "img": "https://www.grands-espaces.com/app/uploads/2018/11/Plongee_sous_la_banquise.jpg"
+          "name": "Rando raquettes",
+          "description": "Immergez-vous dans ces paysages à couper le souffle",
+          "img": "https://www.allibert-trekking.com/iconographie/40/PA1_lappel-du-nord.jpeg"
         },
         {
           "activite_id": 3,
-          "name": "Mont Vinson",
-          "description": "Partez à l'ascension du mont Vinson",
-          "img": "https://alpinemag.fr/wp-content/uploads/2020/03/lehyaric-1200x777.jpg"
+          "name": "Observer les aurores boréales",
+          "description": "Vivez un moment magique",
+          "img": "https://www.explora-project.com/blog/wp-content/uploads/2023/05/90-90-90-90-90-90ccc-90da-90-90-90-90-1-90-90bf-90-90-90-90-90d-90-90c-1-90-90bd-90cb-90af0d-90-90a-90f-90-90-90b-90-90-90-90bd-90b-90-90-90e-90-1024x682.jpeg"
         },
         {
           "activite_id": 4,
-          "name": "Dormir dans un dôme",
+          "name": "Loger dans un dôme",
           "description": "Endormez-vous avec les yeux pleines d'étoiles",
           "img": "https://www.grazia.fr/wp-content/uploads/grazia/2021/11/voyage-hiver-igloos-verre-neige-pour-vivre-sejour-inoubliable.jpeg"
         }

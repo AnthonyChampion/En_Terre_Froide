@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 6.7rem;
 }
 
 .contactContainer h1 {
@@ -15,6 +16,8 @@
     background-color: rgb(222, 223, 223);
     padding: 15px;
     border-radius: 15px;
+    margin-top: 4rem;
+    justify-content: center;
 }
 
 .questionnaireContainer h4 {
@@ -24,15 +27,17 @@
 }
 
 .questionnaireContainer input {
-    margin-top: 5px;
+    margin-top: 2rem;
     border: 1px rgb(102, 102, 102) solid;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .questionnaireContainer textarea {
-    margin-top: 15px;
+    margin-top: 2rem;
     margin-bottom: 15px;
     max-height: 130px;
     max-width: 500px;
@@ -42,7 +47,16 @@
 }
 
 .questionnaireContainer button {
+    display: flex;
     border: 1px rgb(102, 102, 102) solid;
     border-radius: 5px;
     padding: 5px;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:900px) {
+
+    .questionnaireContainer {
+        width: 80%;
+    }
 }

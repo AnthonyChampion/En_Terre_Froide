@@ -7,7 +7,7 @@ export default function ContactPage() {
       <div className="questionnaireContainer">
         <h4>Une question, une envie ?</h4>
         <p>Vous pouvez nous envoyer un mail directement en passant par ici :</p>
-        <div className="questionnaireContainer">
+        <div className="inset_Container">
           <input type="text" name="" id="" placeholder="Nom - Prénom" />
           <input type="text" name="" id="" placeholder="Email" />
           <textarea name="" id="" placeholder="Ecrivez votre message" />

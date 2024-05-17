@@ -13,6 +13,7 @@
 .home_title {
     color: white;
     text-shadow: 2px 2px 2px #023347;
+    font-size: 30px;
 }
 
 .concept_description {
@@ -44,6 +45,13 @@
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 1rem;
+    }
+
+    .home_title {
+        color: white;
+        text-shadow: 2px 2px 2px #023347;
+        font-size: 25px;
+        padding-bottom: 1rem;
     }
 
 }

@@ -26,7 +26,6 @@ export default function EventPage() {
                 <div className="price">
                     <p>Prix : à partir de € {eventData.prix} /pers.</p>
                 </div>
-
             </div>
             <div className="img_container">
                 <img src={eventData.img} alt={eventData.name} />
@@ -40,19 +39,24 @@ export default function EventPage() {
                     <p className="equipement_fournis">
                         {eventData.equipFournis.join(", ")}
                     </p>
+                    <h2>Ce que vous devez vous fournir:</h2>
                     <p className="equipement_non_fournis">
                         {eventData.equipAcheter.join(", ")}
                     </p>
                 </div>
             </div>
             <div className="activity_container">
-                <h2>Activitées proposées:</h2>
+                <h2 className="activity_main_title">Activitées proposées:</h2>
                 <div className="activity_details">
                     {activities.map((activity) => (
-                        <div key={activity.activite_id} className="details" >
+                        <div key={activity.activite_id} className="details">
                             <h3 className="activity_title">{activity.name}</h3>
                             <p className="activity_desc">{activity.description}</p>
-                            <img className="activity_img" src={activity.img} alt={activity.name} />
+                            <img
+                                className="activity_img"
+                                src={activity.img}
+                                alt={activity.name}
+                            />
                         </div>
                     ))}
                 </div>
