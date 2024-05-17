@@ -13,8 +13,8 @@ export default function SliderTrips() {
 
     const setSlidesPerview = () => {
         setSlides(
-            window.innerWitdh < 640
-                ? 2
+            window.innerWidth < 640
+                ? 1
                 : window.innerWidth >= 640
                     ? 4
                     : 0
@@ -38,14 +38,8 @@ export default function SliderTrips() {
             <h1>Voyages à venir</h1>
             <div className="swiper_container">
                 <swiper-container
-                    pagination={true}
                     centered-slides="true"
                     slides-per-view={slides}
-                    coverflow-effect-rotate="0"
-                    coverflow-effect-stretch="00"
-                    coverflow-effect-depth="100"
-                    coverflow-effect-modifier="2.5"
-                    coverflow-effect-slide-shadows="false"
                     loop="true"
                 >
                     {

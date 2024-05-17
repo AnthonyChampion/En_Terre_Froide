@@ -1,5 +1,59 @@
 nav {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #023347;
+    color: white;
+    padding: 0.5rem;
+}
+
+img.logo-nav {
+    width: 6rem;
+    border-radius: 25%;
+}
+
+ul.nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0.5rem;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #F0F8FF;
+    color: #023347;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:900px) {
+
+    img.logo-nav {
+        width: 6rem;
+        border-radius: 10%;
+    }
+}
+
+ul.nav-ul {
+    gap: 2rem;
+    margin-right: 0.8rem;
+}
+
+a {
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+/*nav {
+    display: flex;
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background-color: #023347;

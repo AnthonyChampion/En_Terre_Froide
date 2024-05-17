@@ -47,3 +47,27 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width:900px) {
+    .trip_img {
+        width: 80%;
+        height: 40vh;
+    }
+
+    .trips_card {
+        align-items: center;
+    }
+
+    .trips_container {
+        width: 100vw;
+    }
+
+    .trips_container {
+        margin-top: 0;
+    }
+
+    .trips_container h1 {
+        color: #023347;
+        text-shadow: 2px 2px 2px white;
+    }
+}

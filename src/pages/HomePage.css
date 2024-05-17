@@ -30,3 +30,20 @@
 .last_trips p {
     text-align: center;
 }
+
+@media screen and (max-width:900px) {
+
+    .HomePageComponent {
+        background-size: 160%;
+    }
+
+    .concept_description {
+        color: #023347;
+        text-shadow: none;
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+}

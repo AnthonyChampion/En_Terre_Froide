@@ -23,7 +23,10 @@ export default function EventPage() {
             <div className="event_description">
                 <p>Description : {eventData.description}</p>
                 <p>Date : {eventData.date}</p>
-                <p>Prix : {eventData.prix}</p>
+                <div className="price">
+                    <p>Prix : à partir de € {eventData.prix} /pers.</p>
+                </div>
+
             </div>
             <div className="img_container">
                 <img src={eventData.img} alt={eventData.name} />
@@ -31,7 +34,7 @@ export default function EventPage() {
                 <img src={eventData.img3} alt={eventData.name} />
                 <img src={eventData.img4} alt={eventData.name} />
             </div>
-            <div>
+            <div className="event_details_container">
                 <h2>Ce que nous fournissons: </h2>
                 <div className="equipement_container">
                     <p className="equipement_fournis">
@@ -42,14 +45,14 @@ export default function EventPage() {
                     </p>
                 </div>
             </div>
-            <div>
-                <h3>Activitées proposées:</h3>
-                <div>
+            <div className="activity_container">
+                <h2>Activitées proposées:</h2>
+                <div className="activity_details">
                     {activities.map((activity) => (
-                        <div key={activity.activite_id}>
-                            <h4>{activity.name}</h4>
-                            <p>{activity.description}</p>
-                            <img src={activity.img} alt={activity.name} />
+                        <div key={activity.activite_id} className="details" >
+                            <h3 className="activity_title">{activity.name}</h3>
+                            <p className="activity_desc">{activity.description}</p>
+                            <img className="activity_img" src={activity.img} alt={activity.name} />
                         </div>
                     ))}
                 </div>

@@ -1,6 +1,8 @@
 footer {
     background-color: #023347;
-    color: white
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
 
 ul.footer-ul {

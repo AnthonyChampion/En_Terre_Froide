@@ -13,12 +13,12 @@ h1 {
     padding: 2rem;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .eventPage_container img {
     width: 25rem;
     height: 20rem;
-    display: block;
     margin: auto;
     border-radius: 20px;
 }
@@ -30,4 +30,50 @@ h1 {
 .img_container {
     display: flex;
     max-width: 100%;
+}
+
+.event_details_container {
+    width: 100%;
+    margin-top: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.activity_container {
+    display: flex;
+    height: 30rem;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.activity_details {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    ;
+}
+
+.activity_container img {
+    width: 25rem;
+    height: 10;
+    border-radius: 20px;
+}
+
+.details {
+    align-items: center;
+}
+
+.activity_title {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.activity_desc {
+    padding-bottom: 0.5rem;
 }
