@@ -3,11 +3,17 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 4rem;
-    background-image: url("./src/assets/banner.jpeg");
-    background-size: 100%;
-    background-repeat: no-repeat;
     border-top: solid 2px white;
+}
 
+.banner_container {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    background-image:
+        linear-gradient(to bottom, rgba(255, 254, 254, 0.041), rgb(255, 255, 255)),
+        url('https://s1.1zoom.me/big0/432/Iceland_Mountains_Hofn_Austurland_Snow_Beach_584241_1280x720.jpg');
 }
 
 .home_title {
@@ -44,7 +50,7 @@
         text-align: justify;
         padding-left: 1rem;
         padding-right: 1rem;
-        padding-top: 1rem;
+        padding-top: 4.5rem;
     }
 
     .home_title {
